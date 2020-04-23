@@ -19,7 +19,7 @@ public class App {
     }
     public static void leitura() throws IOException {
 
-        FileInputStream stream = new FileInputStream("/Users/leonardomello/Desktop/cohen 2/cohen01.txt");
+        FileInputStream stream = new FileInputStream("D:\\cohen\\casoenunciado.txt");
         InputStreamReader reader = new InputStreamReader(stream);
         BufferedReader br = new BufferedReader(reader);
         String linha = br.readLine();
